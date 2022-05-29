@@ -30,11 +30,6 @@ spec:
               secretKeyRef:
                 name: netlifycms-auth-secret
                 key: OAUTH_CLIENT_SECRET
-          - name: REDIRECT_URL
-            valueFrom:
-              secretKeyRef:
-                name: netlifycms-auth-secret
-                key: REDIRECT_URL
           - name: ORIGIN
             valueFrom:
               secretKeyRef:
